@@ -6,6 +6,11 @@ Implement data structure and algorithm with golang
 - [ ] Deque
 - [ ] Stack
 - [ ] Heap
+  - [ ] Binary Heap
+  - [ ] D-ary Heap
+  - [ ] Binomial Heap
+  - [ ] Fibonacci Heap
+  - [ ] Pairing Heap
 - [ ] Graph
 - [ ] Skiplist
 - [ ] Trie
