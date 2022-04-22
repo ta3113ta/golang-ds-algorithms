@@ -3,7 +3,7 @@ Implement data structure and algorithm with golang
 
 # Data structures
 - [x] Queue [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue_test.go)
-- [ ] Deque
+- [x] Deque [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque_test.go)
 - [ ] Stack
 - [ ] Heap
   - [ ] Binary Heap
