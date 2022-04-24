@@ -2,10 +2,6 @@ package binary_heap
 
 import "testing"
 
-type Vector[T comparable] struct {
-	data_ *[]T
-}
-
 func TestEmptyHeap(t *testing.T) {
 	heap := NewMax[int32]()
 	if heap.HasNext() {
