@@ -7,7 +7,7 @@ Implement data structure and algorithm with golang
 - [x] Stack [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/stack/stack.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/stack/stack_test.go)
 - [ ] Linked List
 - [ ] Heap
-  - [x] Binary Heap [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/binary_heap/binary_heap.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/binary_heap/binary_heap_test.go)
+  - [x] Binary Heap [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/heap/binary_heap/binary_heap.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/heap/binary_heap/binary_heap_test.go)
   - [ ] D-ary Heap
   - [ ] Binomial Heap
   - [ ] Fibonacci Heap
