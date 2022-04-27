@@ -26,14 +26,13 @@ func (l *LinkedList[T]) InsertAtHead(obj T) {
 	node.next = l.head
 	node.prev = nil
 
-	nodePtr := node
 	if l.head != nil {
-		l.head.prev = nodePtr
+		l.head.prev = node
 	} else {
-		l.tail = nodePtr
+		l.tail = node
 	}
 
-	l.head = nodePtr
+	l.head = node
 	l.length++
 }
 
@@ -43,14 +42,13 @@ func (l *LinkedList[T]) InsertAtTail(obj T) {
 	node.next = nil
 	node.prev = l.tail
 
-	nodePtr := node
 	if l.tail != nil {
-		l.tail.next = nodePtr
+		l.tail.next = node
 	} else {
-		l.head = nodePtr
+		l.head = node
 	}
 
-	l.tail = nodePtr
+	l.tail = node
 	l.length++
 }
 
@@ -84,8 +82,7 @@ func (l *LinkedList[T]) InsertAtIth(idx int, obj T) {
 		node.next = temp
 
 		if temp.prev != nil {
-			nodePtr := node
-			temp.prev.next = nodePtr
+			temp.prev.next = node
 			l.length++
 		}
 	}
@@ -154,7 +151,7 @@ func (l *LinkedList[T]) DeleteIth(idx int) (T, bool) {
 		oldIth := temp
 		if oldIth.prev != nil {
 			oldIth.prev.next = oldIth.next
-		} 
+		}
 
 		if oldIth.next != nil {
 			oldIth.next.prev = oldIth.prev
