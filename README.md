@@ -5,6 +5,7 @@ Implement data structure and algorithm with golang
 Use generic type for implement data structure
 
 # Data structures
+- [x] Set [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/set/set.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/set/set_test.go)
 - [x] Queue [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue_test.go)
 - [x] Deque [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque_test.go)
 - [x] Stack [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/stack/stack.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/stack/stack_test.go)
@@ -37,6 +38,7 @@ Use generic type for implement data structure
 	- [ ] Insertion Sort
 	- [ ] Merge Sort
 	- [ ] Quick Sort
+	- [ ] Pattern-defeating Quicksort (PDQ)
 	- [ ] Counting Sort
 	- [ ] Radix Sort
 	- [ ] Bucket Sort
