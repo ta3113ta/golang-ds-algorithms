@@ -1,10 +1,14 @@
-# golang-ds-algorithms
-Implement data structure and algorithm with golang
+# Golang Data Structures and Algorithms
+[![Go Report Card](https://goreportcard.com/badge/github.com/ta3113ta/golang-ds-algorithms)](https://goreportcard.com/report/github.com/ta3113ta/golang-ds-algorithms)
+![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.18-%23007d9c)
 
-# Require Go version 1.18+
-Use generic type for implement data structure
 
-# Data structures
+Implement data structure and algorithm with golang with example
+
+## Require Go version 1.18+
+Use generic type for implement data structure and algorithm for more flexible and easy to use.
+
+## 🧱 Data structures
 - [x] Set [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/set/set.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/set/set_test.go)
 - [x] Queue [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue_test.go)
 - [x] Deque [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque_test.go)
@@ -17,17 +21,20 @@ Use generic type for implement data structure
   - [ ] Fibonacci Heap
   - [ ] Pairing Heap
 - [ ] Graph
-- [ ] Skiplist
-- [ ] Trie
+	- [ ] Adjacency List
+	- [ ] Adjacency Matrix
+	- [ ] Incidence Matrix
 - [ ] Tree
+	- [ ] Trie
 	- [ ] Binary Search Tree
 	- [ ] AVL Tree
 	- [ ] Red-Black Tree
 	- [ ] Segment Tree
 	- [ ] Fenwick Tree
 - [ ] Bloom Filter
+- [ ] Skiplist
 
-# Algorithms
+## ⚙️ Algorithms
 - [ ] Round Robin
 - [ ] Rabin-Karp
 - [ ] Backtracking
@@ -55,3 +62,11 @@ Use generic type for implement data structure
 	- [ ] Ternary Search
 	- [ ] Boyer-Moore Search
 
+## 🤝 Contributing
+I'm open to contributions & suggestions for improvements. Feel free to create a pull request or open an issue for any bugs.
+
+- Fork the project
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Fix open issues or request new features
