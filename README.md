@@ -1,10 +1,10 @@
 # golang-ds-algorithms
-Implement data structure and algorithm with golang
+Implement data structure and algorithm with golang for learning.
 
-# Require Go version 1.18+
-Use generic type for implement data structure
+## Require Go version 1.18+
+Use generic type for implement data structure and algorithm, so require Go version 1.18+.
 
-# Data structures
+## Data structures
 - [x] Set [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/set/set.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/set/set_test.go)
 - [x] Queue [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/queue/queue_test.go)
 - [x] Deque [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/deque/deque_test.go)
@@ -17,17 +17,47 @@ Use generic type for implement data structure
   - [ ] Fibonacci Heap
   - [ ] Pairing Heap
 - [ ] Graph
+	- [ ] Adjacency List
+	- [ ] Adjacency Matrix
+	- [ ] Incidence Matrix
+	- [ ] Edge List
+	- [ ] Graph
 - [ ] Skiplist
-- [ ] Trie
+- [ ] Hash Table
 - [ ] Tree
+	- [ ] Trie
 	- [ ] Binary Search Tree
 	- [ ] AVL Tree
 	- [ ] Red-Black Tree
 	- [ ] Segment Tree
 	- [ ] Fenwick Tree
+	- [ ] B-Tree
+	- [ ] Splay Tree
+	- [ ] K-D Tree
+	- [ ] Quadtree
+	- [ ] Octree
+	- [ ] Suffix Tree
+	- [ ] Merkle Tree (Hash Tree)
+	- [ ] Range Tree
+	- [ ] Interval Tree
+	- [ ] Min-Max Tree
+	- [ ] Van Emde Boas Tree
+	- [ ] Binary Indexed Tree
+	- [ ] Cartesian Tree
+	- [ ] Treap
+	- [ ] T-Tree
+	- [ ] B+ Tree
+	- [ ] Weight-Balanced Tree
+	- [ ] SPQR Tree
+	- [ ] Fusion Tree
+	- [ ] Exponential Tree
+	- [ ] Log-Structured Merge Tree
+	- [ ] Scapegoat Tree
+	- [ ] Link/Cut Tree
+	- [ ] Zip Tree
 - [ ] Bloom Filter
 
-# Algorithms
+## Algorithms
 - [ ] Round Robin
 - [ ] Rabin-Karp
 - [ ] Backtracking
