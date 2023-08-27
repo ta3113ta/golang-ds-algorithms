@@ -1,9 +1,9 @@
 package set
 
-type Set[T comparable] struct{ base map[T]bool }
+type Set[T comparable] struct{ base map[T]struct{} }
 
 func NewSet[T comparable]() Set[T] {
-	return Set[T]{base: make(map[T]bool)}
+	return Set[T]{base: make(map[T]struct{})}
 }
 
 func (s *Set[T]) Insert(value T) bool {
@@ -11,12 +11,13 @@ func (s *Set[T]) Insert(value T) bool {
 		return true
 	}
 
-	s.base[value] = true
+	s.base[value] = struct{}{}
 	return true
 }
 
 func (s *Set[T]) Contains(value T) bool {
-	return s.base[value]
+	_, ok := s.base[value]
+	return ok
 }
 
 func (s *Set[T]) Remove(value T) bool {
