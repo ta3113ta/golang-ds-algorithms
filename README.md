@@ -27,7 +27,7 @@ Use generic type for implement data structure and algorithm for more flexible an
   - [ ] Adjacency Matrix
   - [ ] Incidence Matrix
 - [ ] Tree
-  - [ ] Trie [implementation](https://github.com/ta3112ta/golang-ds-algorithms/blob/main/ds/tree/trie/trie.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/tree/trie/trie_test.go)
+  - [ ] Trie [implementation](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/tree/trie/trie.go) |  [test](https://github.com/ta3113ta/golang-ds-algorithms/blob/main/ds/tree/trie/trie_test.go)
   - [ ] Binary Search Tree
   - [ ] AVL Tree
   - [ ] Red-Black Tree
