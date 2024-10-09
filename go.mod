@@ -1,5 +1,7 @@
 module ds
 
-go 1.18
+go 1.22.0
 
-require golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
+toolchain go1.23.2
+
+require golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
